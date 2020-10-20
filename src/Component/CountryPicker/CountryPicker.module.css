@@ -1,0 +1,43 @@
+
+.formControl {
+  width: 25%;
+  margin: 0 auto;
+  margin-bottom: 30px !important;
+}
+
+
+
+
+.select {
+  background-color: magenta;
+  border-right: 20px groove yellow;
+  color: white;
+ text-align: center;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+
+
+@media only screen and (max-width: 770px) {
+  .card {
+    background-color: magenta;
+    border-right: 17px solid groove maroon;
+    color: white;
+   text-align: center;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+  }
+  .formControl {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px !important;
+  }
+  
+}

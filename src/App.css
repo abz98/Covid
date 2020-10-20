@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    background-image: url('./ideation.gif');
+    background-size: cover;
+    
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+ 
+  .image {
+    width: 370px;
+    margin-top: 50px;
   }
-}
+  
+  @media only screen and (max-width: 770px) {
+    .container {
+      margin: 0 10%;
+    }
+  
+    .image {
+      width: 100%;
+    }
+  }
+ 
+
+  .Head {
+      
+    font-family: futura;
+    font-style: italic;
+    
+    width:100%;
+    
+   padding-top: 3%;
+
+    text-align: center;
+    
+    color:#313131;
+    font-size:45px;
+    font-weight: bold;
+  
+    animation:colorchange 10s infinite alternate;
+    
+    
+  }
+
+  @keyframes colorchange {
+    0% {
+      
+      color: yellow;
+    }
+    
+    10% {
+      
+      color: whitesmoke;
+    }
+    
+    20% {
+      
+      color: red;
+    }
+    
+    30% {
+      
+      color: greenyellow;
+    }
+    
+    40% {
+      
+      color: lightsalmon;
+    }
+    
+    50% {
+      
+      color: green;
+    }
+    
+    60% {
+      
+      color: cyan;
+    }
+    
+    70% {
+      
+      color:skyblue;
+    }
+    80% {
+   
+      color: #f1c40f;
+    }
+    
+    90% {
+   
+      color:pink;
+    }
+    
+    100% {
+      
+      color: springgreen;
+    }
+  }
